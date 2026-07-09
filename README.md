@@ -28,6 +28,12 @@ You need a standard C++ compiler like g++ on Linux, Mac, or Windows WSL.
 
 ```bash
 # Compile the C++ code
+
+# Compile the client code
+g++ client.cpp -o my_client
+
+# Run the client to connect to the server
+./my_client
 g++ server.cpp -o my_server
 
 # Run the server
